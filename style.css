@@ -1,0 +1,340 @@
+* {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body {
+     overflow-x: hidden;
+}
+
+#logo {
+     margin: 20px 0px ;
+     position: fixed;
+     height: auto;
+}
+
+.grid-class {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     column-gap: 78px;
+
+
+}
+
+.motorcycle {
+     display: inline-block;
+     padding-left: 400px;
+     height: auto;
+     max-width: 100%;
+     border: none;
+     border-radius: 0;
+     box-shadow: none;
+
+}
+
+.motorcycle-Note {
+     font-family: "Anton", Sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+     line-height: 75px;
+     letter-spacing: -2px;
+     color: #000000;
+     padding-bottom: 30px;
+}
+
+p.motorcycle-Head {
+     font-size: 23px;
+     font-family: "Montserrat", Sans-serif;
+     line-height: 15px;
+     font-weight: 500;
+     letter-spacing: 2px;
+     padding-left: 313px;
+}
+
+.fitness {
+     position: relative;
+     float: right;
+     right: 25px;
+     top: 240px;
+}
+
+.fitness-Note {
+     top: 80px;
+     font-family: "Anton", Sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+     line-height: 75px;
+     letter-spacing: -1px;
+     color: #000;
+     padding-left: 130px;
+     margin: 0;
+
+}
+
+p.fitness-Head {
+
+     font-size: 23px;
+     font-family: "Montserrat", Sans-serif;
+     line-height: 15px;
+     font-weight: 500;
+     letter-spacing: 2px;
+     padding-left: 272px;
+     
+}
+
+.womwn-Note {
+     font-family: "Anton", Sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+     line-height: 75px;
+     letter-spacing: -1px;
+     color: #000;
+     padding-left: 130px;
+     margin: 0;
+
+}
+.womwn-Head{
+     font-size: 23px;
+     font-family: "Montserrat", Sans-serif;
+     line-height: 15px;
+     font-weight: 500;
+     letter-spacing: 2px;
+     padding-left: 340px; 
+     border-radius: 0;
+}
+.womwn{
+     float: right;
+     padding-right: 330px;
+     padding-top: 260px;
+}
+.football{
+     /* padding-top: 0px; */
+     padding-left: 70px;
+}
+.football-Note{
+     font-family: "Anton", Sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+     line-height: 75px;
+     letter-spacing: -2px;
+     color: #000000;
+}
+.football-Head{
+     font-size: 23px;
+     font-family: "Montserrat", Sans-serif;
+     line-height: 15px;
+     font-weight: 500;
+     letter-spacing: 2px; 
+     padding-left: 0px;
+     border-radius: 0;
+}
+#grid-class2{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     column-gap: 78px;
+     padding-top: 63pc;
+}
+.Bike{
+     padding-top: 42pc;
+}
+.bike-Head{
+     font-size: 23px;
+     font-family: "Montserrat", Sans-serif;
+     line-height: 15px;
+     font-weight: 500;
+     letter-spacing: 2px; 
+     border-radius: 0;
+     float: right;
+}
+.bike-Note{
+     font-family: "Anton", Sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+     line-height: 75px;
+     letter-spacing: -2px;
+     color: #000000;
+     float: right;
+     padding-left: 17pc;
+}
+.Rise{
+     float: right;
+     padding-right: 60px;
+     padding-top: 30px;
+}
+.rise-Note{
+     font-family: "Anton", Sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+     line-height: 75px;
+     letter-spacing: -2px;
+     color: #000000;
+     text-align: end;
+}
+.rise-Head{
+     font-size: 23px;
+     font-family: "Montserrat", Sans-serif;
+     line-height: 15px;
+     font-weight: 500;
+     letter-spacing: 2px; 
+     text-align: end;
+     border-radius: 0;
+}
+.Judge{
+     float: right;
+     padding-left: 560px;
+     padding-right: 350px;
+     
+}
+.judge-Head{
+     font-size: 23px;
+     font-family: "Montserrat", Sans-serif;
+     line-height: 15px;
+     font-weight: 500;
+     letter-spacing: 2px;
+     color: #000000; 
+     text-align: start;
+     padding-left: 0px;
+     border-radius: 0;
+}
+.judge-Note{
+     font-family: "Anton", Sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+     text-align: start;
+     line-height: 75px;
+     letter-spacing: -2px;
+     color: #000000;
+}
+
+.boxer{
+     /* border: 2px solid red; */
+     padding-top: 80pc;
+     padding-left: 80px;
+}
+.boxer-Note{
+     font-family: "Anton", Sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+     line-height: 75px;
+     letter-spacing: -2px;
+     text-align: start;
+     color: #000000;
+}
+.boxer-Head{
+     font-size: 23px;
+     font-family: "Montserrat", Sans-serif;
+     line-height: 15px;
+     font-weight: 500;
+     letter-spacing: 2px; 
+     text-align: start;
+     padding-left: 0px;
+     border-radius: 0;
+}
+.nike{
+  padding-right: 350px;
+  padding-left: 560px;
+  /* border: 2px solid red; */
+  margin-bottom: 5px;
+}
+.nike-Note{
+     font-family: "Anton", Sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+     line-height: 75px;
+     letter-spacing: -2px;
+     text-align: end;
+     color: #000000;
+     
+}
+.nike-Head{
+     font-size: 23px;
+     font-family: "Montserrat", Sans-serif;
+     line-height: 15px;
+     font-weight: 700;
+     letter-spacing: 2px; 
+     text-align: end;
+     border-radius: 0;    
+}
+.Dance{
+     padding-left: 58pc;
+     position: relative;
+     top: -163px;
+}
+.dance-Head{
+     font-size: 23px;
+     /* border: 2px solid red; */
+     font-family: "Montserrat", Sans-serif;
+     line-height: 15px;
+     font-weight: 500;
+     letter-spacing: 2px;    
+     border-radius: 0;
+     padding-left: 860px;
+     position: relative;
+     top: -140px;
+}
+.dance-Note{
+     font-family: "Anton", Sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+     line-height: 75px;
+     letter-spacing: -2px;
+     color: #000000;
+     padding-left: 780px; 
+     text-align: right;   
+     position: relative;
+     top: -140px;
+}
+.snow{
+     padding-left: 32pc;
+     position: relative;
+     top: -150px;
+}
+.snow-Head{
+     font-size: 23px;
+     font-family: "Montserrat", Sans-serif;
+     line-height: 15px;
+     font-weight: 500;
+     letter-spacing: 2px; 
+     text-align: start;
+     padding-left: 0px;
+     border-radius: 0;
+}
+.snow-Note{
+     font-family: "Anton", Sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+     line-height: 75px;
+     letter-spacing: -2px;
+     text-align: start;
+     color: #000000;
+}
+.tatto{
+  padding-left: 70px;
+  position: relative;
+  top: -150px;
+}
+.tatto-Note{
+     font-family: "Anton", Sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+     line-height: 75px;
+     letter-spacing: -2px;
+     text-align: start;
+     color: #000000;
+}
+.tatto-Head{
+     font-size: 23px;
+     font-family: "Montserrat", Sans-serif;
+     line-height: 15px;
+     font-weight: 500;
+     letter-spacing: 2px; 
+     text-align: start;
+     padding-left: 0px;
+     border-radius: 0;
+}
+p{
+     padding-left: 60px;
+     position: relative;
+     top: -30px;
+}
